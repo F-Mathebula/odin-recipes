@@ -1,0 +1,18 @@
+body {
+    font-family: helvetica, 'Times New Roman', serif;
+    background-color: #ffedfb;
+    margin-left: 0.1;
+}
+
+.chicken {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: rgb(231, 0, 0);
+}
+
+h1 {
+    font-size: 45px;
+}
