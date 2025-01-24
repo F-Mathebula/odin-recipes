@@ -1,0 +1,38 @@
+body {
+    font-family: helvetica, 'Times New Roman', serif;
+    background-image: url(milkshake.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+h1 {
+
+    text-align: center;
+    font-size: 100px;
+}
+
+ul {
+    background: #f2a5ad80;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1, 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+ul a {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
