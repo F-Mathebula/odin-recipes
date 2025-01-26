@@ -7,11 +7,7 @@ body {
     height: 100vh;
 }
 
-/*.container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+
 
 h1 {
 
@@ -46,12 +42,9 @@ ul a {
 
 
 @media only screen and (max-width: 600px) {
-    /*.container {
-        width: 100%;
-    }*/
 
     h1 {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     ul {
@@ -70,12 +63,9 @@ ul a {
 }
 
 @media only screen and (min-width: 600px) {
-    /*.container {
-        min-width: 1200px;
-    }*/
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     ul {
