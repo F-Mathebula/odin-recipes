@@ -4,11 +4,32 @@
 }
 
 body {
-    background-image: url(milkshake.png);
+    background-image: url(undraw_cat_lqdj.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.container {
+    /* display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+     justify-self: center;*/
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    display: flex;
+}
+
+.img_cat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
 }
 
 .logo {
@@ -24,13 +45,13 @@ body {
     text-align: center;
     padding: 10px;
     margin: -10px;
-
+    /*margin-top: 30px;*/
     border: 6px solid hotpink;
 }
 
 .links .list {
 
-    display: inline-block
+    display: inline-block;
 }
 
 .links .recipes {
@@ -39,14 +60,12 @@ body {
     font-size: 45px;
     color: #000000;
     font-weight: bold;
-    text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-
+@media screen and (max-width: 600px) {
     .logo {
         font-size: 26px;
-        padding: 3px;
+        padding: 3px
     }
 
     .links {
@@ -61,10 +80,11 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) {
+
+@media screen and (min-width: 600px) {
     .logo {
-        font-size: 26px;
-        padding: 3px;
+        font-size: 30px;
+        padding: 3px
     }
 
     .links {
@@ -73,7 +93,7 @@ body {
     }
 
     .links .recipes {
-        font-size: 17px;
+        font-size: 20px;
         margin: 1px;
         padding: 4px;
     }
