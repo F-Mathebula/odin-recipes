@@ -9,8 +9,14 @@ body {
     margin: auto;
 }
 
-a {
+.home {
     color: rgb(231, 0, 0);
+    display: inline-block;
+    border: 2px solid rgb(255, 100, 100);
+    background-color: #ffedfb;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 6px;
 }
 
 h1 {
